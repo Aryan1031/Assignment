@@ -1,0 +1,16 @@
+{
+  "name": "internproj",
+  "version": "1.0.0",
+  "description": "Data Format Assumption:\r It is assumed that the input CSV file has columns named 'Time', 'Time Out', 'Timecard Hours (as Time)', and 'Employee Name'.\r The 'Time' and 'Time Out' columns are assumed to be in a datetime format.\r The 'Timecard Hours (as Time)' column is assumed to be in the format '%H:%M', representing hours and minutes.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "date-fns": "^3.3.1"
+  }
+}
