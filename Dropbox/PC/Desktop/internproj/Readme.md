@@ -16,8 +16,3 @@ Output Format Assumption:
 The results are printed as a DataFrame containing columns 'Employee Name', 'Event', and 'Event Time'.
 The DataFrame is printed to the console.
 
-File Path:
-The file path for the input CSV file is assumed to be 'your_file_path.csv'. You should replace it with the actual path to your CSV file.
-
-Availability of pandas Library:
-The code assumes that the pandas library is installed and available for use.
